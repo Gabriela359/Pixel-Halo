@@ -1,0 +1,13 @@
+body {
+    width: 960;
+    margin: 0 auto;
+    text-align: center;
+    background-color: blue;
+    font-family: "Goldman", serif;
+    color: #ba00ba;
+  }
+
+  canvas {
+    background-color: #110f11;
+    border: solid #ba00ba 5px;
+  }
