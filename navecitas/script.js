@@ -114,7 +114,7 @@ function Enemigo(x, y){
 
 const caratula = () => {
     let imagen = new Image();
-    imagen.src = "/navecitas/imagenes/caratula.jpg";
+    imagen.src = "imagenes/caratula.jpg";
     imagen.onload = () => {
         game.ctx.drawImage(imagen, 0, 0, game.canvas.width, game.canvas.height);
     }
@@ -343,11 +343,11 @@ window.onload=function(){
 
 
             game.imagen = new Image();
-            game.imagen.src = "/navecitas/imagenes/masterchief.png";
+            game.imagen.src = "imagenes/masterchief.png";
 
             //crear enemigos
             game.imagenEnemigo = new Image();
-            game.imagenEnemigo.src = "/navecitas/imagenes/covenant.png"
+            game.imagenEnemigo.src = "imagenes/covenant.png"
             game.imagenEnemigo.onload = function(){
                 for(var i = 0; i<5; i++){
                     for(var j = 0; j<11; j++){
